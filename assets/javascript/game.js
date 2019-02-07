@@ -17,19 +17,18 @@ var randomLetter = "";
 
 function numGen(){
     randomLetter = chars.substr( Math.floor(Math.random() * 26), 1);
-    alert(randomLetter);
 }
 
 document.onkeyup = function(e) {
-        if (rletter === e.key){
-            document.getElementById("winsCount").innerHTML = winsCount++;
-            alert("You did it!!");
-        } else {
-            document.getElementById("guessesSoFar").innerHTML += ", " + e.key;
-        }
+    if (randomLetter === e.key) {
+        document.getElementById("winsCount").innerHTML = winsCount++;
+        alert("You did it!!");
+    } else {
+        document.getElementById("guessesSoFar").innerHTML += ", " + e.key;
     }
+}
 
-
+numGen();
 
 
 
