@@ -12,7 +12,9 @@
 
     Homework #3
     
-    This is a simple game that asks the users to guess a letter that the computer has chosen. User has 10 guesses before the                game resets and they try again.
+    **This code was refactored - PLEASE use index2.html to grade**
+    
+    This is a simple game that asks the users to guess a letter that the computer has chosen. User has 10 guesses before the game resets and they try again.
 
 **Contact**
 
