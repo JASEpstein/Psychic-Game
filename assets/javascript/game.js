@@ -28,7 +28,7 @@ function guessCountReset() {
 }
 
 //Keyup event listener
-document.onkeyup = function(e) {
+document.onkeyup = function (e) {
   //When user guesses correctly
   if (randomLetter === e.key) {
     document.getElementById("winsCount").innerHTML = ++winsCount;
@@ -57,6 +57,8 @@ document.onkeyup = function(e) {
     }
   }
 };
-//Runs generator on page load
+//Runs stuff on page load
+document.getElementById("winsCount").innerHTML = winsCount;
+document.getElementById("lossesCount").innerHTML = lossesCount;
 numGen();
 guessCountReset();
