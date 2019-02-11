@@ -10,8 +10,9 @@
 
 **About**
 
-Homework #3
-    This is a simple game that asks the users to guess a letter that the computer has chosen. User has 10 guesses before the game resets and they try again.
+    Homework #3
+    
+    This is a simple game that asks the users to guess a letter that the computer has chosen. User has 10 guesses before the                game resets and they try again.
 
 **Contact**
 
